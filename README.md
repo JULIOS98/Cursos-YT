@@ -1,2 +1,2 @@
 # Cursos-YT
-Cursos de canales de youtube
+Repositorio de proyectos de los cursos que se realicen directamente de youtube

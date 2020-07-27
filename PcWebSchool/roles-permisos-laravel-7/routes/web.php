@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/main', 'FrontEndController@index')->name('index');
+Route::get('/about', 'FrontEndController@about')->name('about');
+Route::get('/contacto', 'FrontEndController@contacto')->name('contacto');
+

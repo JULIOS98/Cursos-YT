@@ -25,20 +25,23 @@
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-   @include('plantilla.header')
-  </nav>
 
+  @if(!\Request::is('login') && !\Request::is('register') )
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    @include('plantilla.header')
+    </nav>
+  @endif
 
   @yield('content')
  
  
-
+  @if(!\Request::is('login') && !\Request::is('register') )
   <!-- Footer -->
   <footer>
    @include('plantilla.footer')
   </footer>
+  @endif
 
   <!-- Bootstrap core JavaScript -->
   <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>

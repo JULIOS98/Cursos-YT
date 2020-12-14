@@ -1,0 +1,12 @@
+*Clase 1 Laravel / Setup
+
+Se mostro como instalar e implementar el fullcalendar dentro del framework Laravel
+y se mostraron varios eventos propios del fullcalendar
+
+-eventDrop
+-eventClick
+-eventResize
+-select
+-events
+
+*Clase 2 fullcalendar / laravel migration event render
